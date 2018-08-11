@@ -3,9 +3,6 @@ Fantasy Football with Faust
 ===========================
 
 
-.. image:: https://img.shields.io/pypi/v/ffl_faust.svg
-        :target: https://pypi.python.org/pypi/ffl_faust
-
 .. image:: https://img.shields.io/travis/smkell/ffl_faust.svg
         :target: https://travis-ci.org/smkell/ffl_faust
 
