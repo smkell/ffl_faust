@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import ffl_faust
+
+ffl_faust.app.main()

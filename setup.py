@@ -47,4 +47,5 @@ setup(
     url='https://github.com/smkell/ffl_faust',
     version='0.1.0',
     zip_safe=False,
+    scripts=['bin/ffl-stat-scraper'],
 )
