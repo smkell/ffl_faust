@@ -34,6 +34,11 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     description="Win your fantasy football league using Python and Faust.",
+    entry_points={
+        'console_scripts': [
+            'stat_scraper=ffl_faust.stat_scraper:main',
+        ]
+    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
@@ -47,5 +52,4 @@ setup(
     url='https://github.com/smkell/ffl_faust',
     version='0.1.0',
     zip_safe=False,
-    scripts=['bin/ffl-stat-scraper'],
 )
