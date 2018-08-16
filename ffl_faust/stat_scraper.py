@@ -12,6 +12,9 @@ async def hello(greetings):
     async for greeting in greetings:
         print(f'Hello from {greeting.from_name} to {greeting.to_name}')
 
+# Add task to retrieve schedule
+# For each game in schedule, if it's started retrieve new stats for the game
+# Add command for retrieving
 @app.timer(interval=1.0)
 async def example_sender(app):
     await hello.send(
